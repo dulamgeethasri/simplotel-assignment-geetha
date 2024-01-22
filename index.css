@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.res-container {
+    width: 100vw;
+}
+
+.bg-container {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#fad2d2, #faa0a0);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.nav-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #d95b5b;
+    color: black;
+    font-weight: 500;
+    font-family: Bree Serif;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.menu-bar {
+    width: 20px;
+}
+
+.lorem-container {
+    width: 50vw;
+    padding: 30px;
+    font-family: Roboto;
+
+}
+
+p {
+    font-size: 12px;
+
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #d95b5b;
+    border-width: 0px;
+    padding: 10px;
+}
+
+.img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#fad2d2, #faa0a0);
+
+}
+
+.img-container {
+    width: 50vw;
+    display: flex;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-1 {
+    width: 20vw;
+    height: 24vh;
+    object-fit: cover;
+    margin-bottom: 5px;
+
+}
+
+.img-2 {
+    width: 20vw;
+    height: 24vh;
+    object-fit: cover;
+}
+
+.img-3 {
+    width: 25vw;
+    height: 48vh;
+    object-fit: cover;
+    margin-left: 6px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: Roboto;
+    background-color: #d95b5b;
+
+}
+
+@media (max-width:768px) {
+    .card {
+        width: 30vw;
+        font-size: 10px;
+    }
+}
+
+.click-container {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    width: 25px;
+    height: 20px;
+}
